@@ -1,5 +1,5 @@
 # Cryptocurrencies
-I create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment.  I have described the differences between supervised and unsupervised learning, including a real-world example. I have preprocessed data for unsupervised learning. Then clustered data using the K-means algorithm. Followed by determination of the best number of centroids for K-means using the elbow curve. I used PCA to limit features and speed up the model.
+I've created a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for a new investment.  I have demonstrated the differences between supervised and unsupervised learning with a real-world example. I have preprocessed data for unsupervised learning, then clustered data using the K-means algorithm. Followed by determination of the best number of centroids for K-means using the elbow curve. I used PCA to limit features and speed up the model.
 
 ## Deliverable 1: Preprocessing the Data for PCA
 Using my knowledge of Pandas, I’ve preprocessed the dataset in order to perform PCA in Deliverable 2.
