@@ -4,13 +4,20 @@ I've created a report that includes what cryptocurrencies are on the trading mar
 ## Deliverable 1: Preprocessing the Data for PCA
 Using my knowledge of Pandas, I’ve preprocessed the dataset in order to perform PCA in Deliverable 2.
 - All cryptocurrencies that are not being traded are removed (3 pt)
+![image](https://user-images.githubusercontent.com/96395120/164118072-5b07cc1b-333e-40ec-b1fa-e408fd4a6cda.png)
 - The IsTrading column is dropped (3 pt)
+![image](https://user-images.githubusercontent.com/96395120/164118160-a5281050-1e50-450b-b9c2-81d908d5edb2.png)
 - All the rows that have at least one null value are removed (3 pt)
+-![image](https://user-images.githubusercontent.com/96395120/164118248-faf8fc5d-ee12-42b2-8cb0-2069b3a11e67.png)
 - All the rows that do not have coins being mined are removed (3 pt)
+![image](https://user-images.githubusercontent.com/96395120/164118281-23bc2950-db99-4b79-9f67-810604304af3.png)
 - The CoinName column is dropped (3 pt)
+![image](https://user-images.githubusercontent.com/96395120/164118326-90a4dbba-f922-45c4-a1c7-e40340965b70.png)
 - A new DataFrame is created that stores all cryptocurrency names from the CoinName column and retains the index from the crypto_df DataFrame (5 pt)
 - The get_dummies() method is used to create variables for the text features, which are then stored in a new DataFrame, X (5 pt)
+![image](https://user-images.githubusercontent.com/96395120/164118567-3a1ba2f4-21af-4d5c-a99f-fb4d9b3369b4.png)
 - The features from the X DataFrame have been standardized using the StandardScaler fit_transform() function (5 pt)
+![image](https://user-images.githubusercontent.com/96395120/164118658-28ba6f6e-2b79-40de-9dce-85df4295218f.png)
 
 ## Deliverable 2: Reducing Data Dimensions Using PCA
 Using my knowledge of how to apply the Principal Component Analysis (PCA) algorithm, I've reduced the dimensions of the X DataFrame to three principal components and placed these dimensions in a new DataFrame.
