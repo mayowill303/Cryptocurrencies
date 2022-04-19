@@ -29,8 +29,10 @@ Using my knowledge of how to apply the Principal Component Analysis (PCA) algori
 ## Deliverable 3: Clustering Cryptocurrencies Using K-means
 Using my knowledge of the K-means algorithm, I’ve created an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame created in Deliverable 2. Then, I ran the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.
 - An elbow curve is created using hvPlot to find the best value for K (10 pt)
+- ![image](https://user-images.githubusercontent.com/96395120/164119202-147f6e9a-7ab4-4289-a49a-3f1f86f1352d.png)
 - Predictions are made on the K clusters of the cryptocurrencies’ data (5 pt)
 - A new DataFrame is created with the same index as the crypto_df DataFrame and has the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class (5 pt)
+- ![image](https://user-images.githubusercontent.com/96395120/164119262-8697211c-72bb-48b5-8601-a750107a8e4a.png)
 
 ## Deliverable 4: Visualizing Cryptocurrencies Results
 Using my knowledge of creating scatter plots with Plotly Express and hvplot, I've visualized the distinct groups that correspond to the three principal components created in Deliverable 2, then created a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
