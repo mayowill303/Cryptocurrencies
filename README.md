@@ -37,7 +37,13 @@ Using my knowledge of the K-means algorithm, I’ve created an elbow curve using
 ## Deliverable 4: Visualizing Cryptocurrencies Results
 Using my knowledge of creating scatter plots with Plotly Express and hvplot, I've visualized the distinct groups that correspond to the three principal components created in Deliverable 2, then created a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
 - The clusters are plotted using a 3D scatter plot, and each data point shows the CoinName and Algorithm on hover (10 pt)
+- ![image](https://user-images.githubusercontent.com/96395120/164119582-672fc97f-39d9-4e0c-a8c4-e49db2a111cc.png)
 - A table with tradable cryptocurrencies is created using the hvplot.table() function (3 pt)
+- ![image](https://user-images.githubusercontent.com/96395120/164119622-d7eb767d-aca1-4306-8a26-501a925bbe31.png)
 - The total number of tradable cryptocurrencies is printed (2 pt)
+- ![image](https://user-images.githubusercontent.com/96395120/164119660-edada608-ef3d-4bcf-adf2-e4f76b8ef370.png)
 - A DataFrame is created that contains the clustered_df DataFrame index, the scaled data, and the CoinName and Class columns (5 pt)
+- ![image](https://user-images.githubusercontent.com/96395120/164119779-fa2dd38c-789e-446e-a287-0e0915a86ba9.png)
 - A hvplot scatter plot is created where the X-axis is "TotalCoinsMined", the Y-axis is "TotalCoinSupply", the data is ordered by "Class", and it shows the CoinName when you hover over the data point (10 pt)
+- ![image](https://user-images.githubusercontent.com/96395120/164119805-06cbbcea-16f7-4759-a58c-4df3db42446d.png)
+
