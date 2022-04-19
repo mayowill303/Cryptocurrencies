@@ -22,7 +22,9 @@ Using my knowledge of Pandas, I’ve preprocessed the dataset in order to perfor
 ## Deliverable 2: Reducing Data Dimensions Using PCA
 Using my knowledge of how to apply the Principal Component Analysis (PCA) algorithm, I've reduced the dimensions of the X DataFrame to three principal components and placed these dimensions in a new DataFrame.
 - The PCA algorithm reduces the dimensions of the X DataFrame down to three principal components (10 pt)
+- ![image](https://user-images.githubusercontent.com/96395120/164119044-ac8d667d-7100-4b4d-a089-816ce8575973.png)
 - The pcs_df DataFrame is created and has the following three columns, PC 1, PC 2, and PC 3, and has the index from the crypto_df DataFrame (10 pt)
+- ![image](https://user-images.githubusercontent.com/96395120/164119073-137f58cd-90ba-43be-90b4-4bb2edb0cab2.png)
 
 ## Deliverable 3: Clustering Cryptocurrencies Using K-means
 Using my knowledge of the K-means algorithm, I’ve created an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame created in Deliverable 2. Then, I ran the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.
