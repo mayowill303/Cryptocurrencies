@@ -23,7 +23,7 @@ Using my knowledge of the K-means algorithm, I’ve created an elbow curve using
 - Predictions are made on the K clusters of the cryptocurrencies’ data (5 pt)
 - A new DataFrame is created with the same index as the crypto_df DataFrame and has the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class (5 pt)
 
-### Deliverable 4: Visualizing Cryptocurrencies Results
+## Deliverable 4: Visualizing Cryptocurrencies Results
 Using my knowledge of creating scatter plots with Plotly Express and hvplot, I've visualized the distinct groups that correspond to the three principal components created in Deliverable 2, then created a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
 - The clusters are plotted using a 3D scatter plot, and each data point shows the CoinName and Algorithm on hover (10 pt)
 - A table with tradable cryptocurrencies is created using the hvplot.table() function (3 pt)
